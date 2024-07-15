@@ -1,5 +1,6 @@
 // Program Hero's Inventory
 // Describes work with iterators
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -7,6 +8,7 @@
 int main()
 {
 	std::vector<std::string> Inventory;
+
 	Inventory.push_back("sword");
 	Inventory.push_back("armor");
 	Inventory.push_back("shiled");
@@ -22,6 +24,7 @@ int main()
 	}
 
 	std::cout << "\nYou trade your sword for a battle axe.\n";
+
 	MyIterator = Inventory.begin();
 	*MyIterator = "battle axe";
 
