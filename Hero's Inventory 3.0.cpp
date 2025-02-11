@@ -9,9 +9,9 @@ int main()
 {
 	std::vector<std::string> Inventory;
 
-	Inventory.push_back("sword");
-	Inventory.push_back("armor");
-	Inventory.push_back("shiled");
+	Inventory.push_back("sword"); // add items
+	Inventory.push_back("armor"); // add armor
+	Inventory.push_back("shield"); // add shield
 
 	std::vector<std::string>::iterator MyIterator;
 	std::vector<std::string>::const_iterator Iter;
